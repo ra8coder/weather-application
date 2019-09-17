@@ -54,3 +54,6 @@ header a {
     padding: 8px;
 }
 
+.main-content p span {
+    color: #888888;
+}
