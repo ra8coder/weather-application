@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Application</title>
+    <link rel="shortcut icon" href="/img/weather.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <div class="main-content">
+
+        {{>header}}
+
+        <p>Use this site to get your weather</p>
+
+        <form method="get" class='weatherForm'>
+            <input type="text" placeholder="Location" class="weatherInput">
+            <button class="weatherBtn">Search</button>
+        </form>
+
+        <p class="weatherError"></p>
+        <p class="weatherInfo"></p>
+
+    </div>
+
+    {{>footer}}
+</body>
+</html>
+
+<script src="/js/app.js"></script>
